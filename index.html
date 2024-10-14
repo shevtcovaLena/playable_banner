@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+    <title>Shoping</title>
+  </head>
+  <body>
+    <aside>
+      <div id="shelves">
+        <div class="item">
+          <img id="wine" src="./assets/1_1.svg" alt="wine" class="active-img" tabindex="1" />
+          <img id="milk" src="./assets/1_2.svg" alt="milk" class="active-img" tabindex="1" />
+          <img id="jam" src="./assets/1_3.svg" alt="jam" class="active-img" tabindex="1" />
+          <img id="cheese" src="./assets/1_4.svg" alt="cheese" class="active-img" tabindex="1" />
+        </div>
+        
+        <div class="item">
+          <img id="meat" src="./assets/2_1.svg" alt="meat" class="active-img" tabindex="1" />
+          <img id="chicken" src="./assets/2_2.svg" alt="chicken" class="active-img" tabindex="1" />
+          <img id="pack" src="./assets/2_3.svg" alt="pack" class="active-img" tabindex="1" />
+        </div>
+        
+        <div class="item">
+          <img id="pineapple" src="./assets/3_1.svg" alt="pineapple" class="active-img" tabindex="1" />
+          <img id="bananas" src="./assets/3_2.svg" alt="bananas" class="active-img" tabindex="1" />
+          <img id="apple" src="./assets/3_3.svg" alt="apple" class="active-img" tabindex="1" />
+          <img id="salad" src="./assets/3_4.svg" alt="salad" class="active-img" tabindex="1" />
+        </div>
+      </div>
+      <div id="cart-box">
+        <img src="./assets/cart.svg" alt="cart" id="cart" />
+      </div>
+    </aside>
+    <audio id="start-sound" src="./assets/audio/intro.mp3"></audio>
+    <audio id="fail-sound" src="./assets/audio/cancel.mp3"></audio>
+    <audio id="success-sound" src="./assets/audio/ok.mp3"></audio>
+    <audio id="complete-sound" src="./assets/audio/final.mp3"></audio>
+  </body>
+</html>
