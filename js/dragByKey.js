@@ -1,4 +1,4 @@
-const dragByKey = (event) => {
+function dragByKey(event) {
     items.forEach((item) => {
       item.classList.remove("active-img");
     });
