@@ -9,6 +9,5 @@ function dragByKey(event) {
     document.body.appendChild(clonedItem);
     moveAt(353, 477);
     draggedItem.style.visibility = "hidden";
-    document.body.style.cursor = "grabbing";
     dragEnd();
   }
